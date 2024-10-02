@@ -246,7 +246,7 @@ export default function CodeVisualizer() {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -20 }}
                       transition={{ duration: 0.5 }}
-                      className="mb-4 relative text-xs"
+                      className="mb-4 relative text-sm"
                     >
                       <Highlight
                         theme={themes.nightOwl}
